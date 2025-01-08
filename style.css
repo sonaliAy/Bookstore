@@ -1,0 +1,321 @@
+/* Style for the top frame */
+.top-frame {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4b183;
+    padding: 10px;
+}
+
+.logo img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+
+.site-name h1 {
+    font-size: 24px;
+    color: #000;
+    margin: 0;
+}
+
+.nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Main container with left and right frames */
+.container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.left-frame {
+    width: 25%;
+    padding: 20px;
+    background-color: #eaeaea;
+}
+
+.left-frame h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.left-frame ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-frame ul li {
+    margin-bottom: 10px;
+}
+
+.left-frame ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.left-frame ul li a:hover {
+    text-decoration: underline;
+}
+
+.right-frame {
+    width: 75%;
+    padding: 20px;
+}
+
+.right-frame h2 {
+    font-size: 22px;
+    color: #000;
+}
+
+.right-frame p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Section Title */
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0;
+    color: #444;
+  }
+  
+  /* Cards Container */
+  .cards-container {
+    padding: 20px;
+  }
+  
+  /* Flexbox Grid for Cards */
+  .cards-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Individual Card */
+  .card {
+    background-color: #fff;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Card Hover Effect */
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Card Content */
+  .card-content {
+    padding: 20px;
+  }
+  
+  /* Book Title */
+  .book-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+    text-transform: capitalize;
+  }
+  
+  /* Book Details */
+  .book-details {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    color: #555;
+  }
+.book-img{
+    width: 130px;
+    height: 150px;
+    justify-items: center;
+}
+
+/* login   */
+/* Centering Login Box */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Login Box Styling */
+  .login-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Login Title */
+  .login-title {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  .login-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-label {
+    font-size: 14px;
+    color: #555555;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: #ffffff;
+  }
+  
+  /* Button Styling */
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Signup Link */
+  .signup-link {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555555;
+  }
+  
+  .signup-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+
+
+  /* registration */
+  /* Centering Registration Box */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Registration Box Styling */
+  .register-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+  }
+  
+  /* Registration Title */
+  .register-title {
+    font-size: 26px;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  .register-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-label {
+    font-size: 14px;
+    color: #555555;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: #ffffff;
+  }
+  
+  /* Button Styling */
+  .register-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color: #007bff;
+  }
+  
+  /* Login Link */
+  .login-link {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555555;
+  }
+  
+  .login-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
